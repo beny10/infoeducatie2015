@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-OMLKBEJEONT</Machine>
+    <WindowsUser>Bia</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>66555d8a-a80f-4c64-a8d0-5f84190d1652</PackageIdentityName>
+    <IntermediateOutputPath>E:\Beni\C#\FlowerControl\FlowerControl\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Beni\C#\FlowerControl\FlowerControl\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\bin\Debug\FlowerControl.exe">
+      <PackagePath>FlowerControl.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\BadgeLogo.scale-100.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-100.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\BadgeLogo.scale-140.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-140.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\BadgeLogo.scale-240.jpg">
+      <PackagePath>Assets\BadgeLogo.scale-240.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\flowerIcon.png">
+      <PackagePath>flowerIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\ToastText02.xml">
+      <PackagePath>ToastText02.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\bin\Debug\FlowerControl.xr.xml">
+      <PackagePath>FlowerControl.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Beni\C#\FlowerControl\FlowerControl\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

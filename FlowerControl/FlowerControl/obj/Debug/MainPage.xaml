@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="FlowerControl.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlowerControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Temperatura:" FontSize="18"></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Temperature}" FontSize="18"></TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Humidity:" FontSize="18"></TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Humidity}" FontSize="18"></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Lumina:" FontSize="18"></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Lumina}" FontSize="18"></TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="PragUdare:" FontSize="18"></TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding PragUdare}" FontSize="18"></TextBlock>
+        <Grid Grid.Row="3" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button x:ConnectionId='4' x:Name="pragUp" Grid.Row="0" Content="˄"                     ></Button>
+            <Button x:ConnectionId='5' x:Name="pragDown" Grid.Row="1" Content="˅"                       ></Button>
+        </Grid>
+        <Button x:ConnectionId='1' Grid.Row="4" Content="Refresh"                     ></Button>
+        <Button x:ConnectionId='2' Grid.Row="4" Grid.Column="1" Content="Uda"                       ></Button>
+        <Button x:ConnectionId='3' Grid.Row="4" Grid.Column="2" Content="Oprire Udare"                       ></Button>
+    </Grid>
+</Page>
+
